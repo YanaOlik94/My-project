@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="bg-container">
+
+    <a href="index.html"><i class="fa-solid fa-chevron-left">Назад</i></a>
+
+    <table class="parent">
+      <caption class="parent-cap">Таблица 2, Родительская </caption>
+      <tr>
+        <td class="w-40" colspan="2">1-2</td>
+        <td class="w-60">3, ширина 60%</td>
+      </tr>
+      <tr>
+        <td class="w-28">4, ширина 28%</td>
+        <td colspan="2" rowspan="2">
+
+          <table class="child">
+            <caption class="child-cap">Таблица 2, Родительская </caption>
+            <tr>
+              <td>1</td>
+              <td class="h200" rowspan="3">2-5-8</td>
+              <td class="h200" rowspan="2">3-6</td>
+            </tr>
+            <tr>
+              <td rowspan="2">4-7</td>
+            </tr>
+            <tr>
+              <td>9</td>
+            </tr>
+          </table>
+
+        </td>
+      </tr>
+      <tr>
+        <td class="w-28">7</td>
+      </tr>
+    </table>
+
+  </div>
+
+</body>
+
+</html>

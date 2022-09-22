@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 10px 10px;
+  background-image: url(/img/background.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-container {
+  width: 90%;
+  height: 80%;
+  min-height: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #DAECD3;
+  box-shadow: 0 0 10px #000000;
+}
+
+.select1 {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  margin: auto 20px;
+  padding: 40px 50px;
+  text-align: center;
+  background-color: #5AF0E4;
+  border: 1px solid #305D75;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000000;
+}
+
+.select2 {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  padding: 40px 50px;
+  text-align: center;
+  background-color: #C38571;
+  border: 1px solid #305D75;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #000000;
+}
+
+.tab1,
+.child,
+.parent {
+  width: 75%;
+  margin: 50px auto;
+  border-collapse: collapse;
+}
+
+td {
+  width: 33.33%;
+  height: 50px;
+  text-align: center;
+  border: 1px solid #312935;
+  border-spacing: 0;
+}
+
+.h200 {
+  height: 200px;
+}
+
+.caption,
+.parent-cap {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.child {
+  width: 80%;
+}
+
+.parent {
+  width: 90%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-28 {
+  width: 28%;
+}
+
+.w-40 {
+  width: 40%;
+}
