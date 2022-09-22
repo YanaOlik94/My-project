@@ -18,6 +18,11 @@ a {
   color: #000000;
 }
 
+a:hover {
+  font-size: 24px;
+  color: #4031af;
+}
+
 .container {
   display: flex;
   max-width: 1200px;
@@ -44,7 +49,7 @@ a {
 
 .select1 {
   position: relative;
-  width: 200px;
+  width: 250px;
   height: 100px;
   margin: auto 20px;
   padding: 40px 50px;
@@ -57,7 +62,7 @@ a {
 
 .select2 {
   position: relative;
-  width: 200px;
+  width: 250px;
   height: 100px;
   padding: 40px 50px;
   text-align: center;
