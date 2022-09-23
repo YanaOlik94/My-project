@@ -3,6 +3,7 @@
 }
 
 body {
+  margin: 0;
   width: 100vw;
   min-height: 100vh;
   padding: 10px 10px;
@@ -16,6 +17,11 @@ a {
   text-decoration: none;
   font-size: 20px;
   color: #000000;
+}
+
+a:hover {
+  font-size: 24px;
+  color: #4031af;
 }
 
 .container {
@@ -44,7 +50,7 @@ a {
 
 .select1 {
   position: relative;
-  width: 200px;
+  width: 250px;
   height: 100px;
   margin: auto 20px;
   padding: 40px 50px;
@@ -57,7 +63,7 @@ a {
 
 .select2 {
   position: relative;
-  width: 200px;
+  width: 250px;
   height: 100px;
   padding: 40px 50px;
   text-align: center;
