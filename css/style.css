@@ -21,12 +21,12 @@ a {
 
 a:hover {
   font-size: 24px;
-  color: #0f007d;
+  color: #4031af;
 }
 
 .container {
   display: flex;
-  max-width: 1280px;
+  max-width: 1200px;
   margin-top: 250px;
   margin-left: auto;
   margin-right: auto;
